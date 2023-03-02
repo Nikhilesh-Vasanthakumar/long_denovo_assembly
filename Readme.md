@@ -39,3 +39,5 @@ We use quast and busco to find the quality of the assembly.
 >busco -m genome -i consensus.fa -o Output -l saccharomycetes
 
 The results of the quast and busco are present in the output folder.
+The time required to assemble using Hifiasm was 45 mins.
+The time required to assemble using wtdbg2 was 20 mins.
