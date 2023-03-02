@@ -35,6 +35,7 @@ Similar to Hifiasm we use the fastq file to assemble the sequences.
 
 We use quast and busco to find the quality of the assembly. 
 >quast -e -r ref.fasta Consensus.fa
+
 >busco -m genome -i consensus.fa -o Output -l saccharomycetes
 
 The results of the quast and busco are present in the output folder.
